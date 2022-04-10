@@ -1,0 +1,18 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    >
+    
+    <Color x:Key="col_Control.Disable">#cbcbcb</Color>
+    <Color x:Key="col_Control.Enable.Stroke">#3d3d3d</Color>
+    <Color x:Key="col_Control.Disable.Stroke">#b2b2b2</Color>
+
+    <SolidColorBrush x:Key="br_Control.Disable" Color="{StaticResource col_Control.Disable}" />
+    <SolidColorBrush x:Key="br_Control.Enable.Stroke" Color="{StaticResource col_Control.Enable.Stroke}" />
+    <SolidColorBrush x:Key="br_Control.Disable.Stroke" Color="{StaticResource col_Control.Disable.Stroke}" />
+
+    <Color x:Key="col_DarkNormal">#aaaaaa</Color>
+    <Color x:Key="col_DarkHovered">#ffffff</Color>
+
+    <SolidColorBrush x:Key="br_DarkNormal" Color="{DynamicResource col_DarkNormal}"></SolidColorBrush>
+    <SolidColorBrush x:Key="br_DarkHovered" Color="{StaticResource col_DarkHovered}"></SolidColorBrush>
+</ResourceDictionary>

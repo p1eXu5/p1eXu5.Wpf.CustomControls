@@ -1,0 +1,15 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:p1eXu5.Wpf.CustomControls"
+    >
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="pack://application:,,,/p1eXu5.Wpf.CustomControls;component/Themes/Colors.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/p1eXu5.Wpf.CustomControls;component/Themes/ChameleonButtonStyle.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/p1eXu5.Wpf.CustomControls;component/Themes/CircleDiagramControlStyle.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/p1eXu5.Wpf.CustomControls;component/Themes/TetrisWindowStyle.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/p1eXu5.Wpf.CustomControls;component/Themes/GameMenuSelectorStyle.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+</ResourceDictionary>
